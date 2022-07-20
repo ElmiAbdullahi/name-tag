@@ -33,3 +33,22 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+
+#name-tag {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+    border-radius: var(--border-radius);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#greeting, #footer {
+    background-color: blueviolet;
+    height: 50px;
+    text-align: center;
+    
+}
